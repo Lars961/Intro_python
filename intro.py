@@ -114,6 +114,50 @@ print(len(diccionario))
 diccionario['peso'] = '8kg'
 print(diccionario)
 
-#Eliminar elemento dentro del diccionario
+#Eliminar elemento dentro del diccionario, dos fromas diferentes, mismo resultado
 diccionario.pop('peso')
+#del diccionario['peso']
 print(diccionario)
+
+#Eliminar ultimo valor agregado al diccionario
+#diccionario.popitem()
+#print(diccionario)
+
+#Copiar diccionario, dos formas diferentes, mismo resultado
+#copiaDiccionario = dict(diccionario)
+copiaDiccionario = diccionario.copy()
+print(diccionario, copiaDiccionario)
+
+#Eliminar todos los elementos de un diccionario
+copiaDiccionario.clear()
+print(copiaDiccionario)
+
+#Diccionario anidado
+misMascotas = {
+    "Blanco": {
+        "nombre": "Blanco",
+        "Edad": 12
+    },
+
+    "Tommy": {
+        "nombre":"Tommy",
+        "Edad": 11
+    },
+
+    "Nala": {
+        "Nombre": "Nala",
+        "Edad": 4
+    }
+}
+
+print(misMascotas)
+
+#Constructor dict(), para crear diccionarios, otra manera para crearlos, mismo resultado
+misPerros = dict(nombre="Blanco", edad=12)
+print(misPerros)
+
+#Booleanos
+verdadero = True
+falso = False
+
+print(verdadero, falso)
