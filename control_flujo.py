@@ -53,3 +53,8 @@ if 2 < 5: print('if de una sola linea')
 print ('cuando devuelve true') if 5 > 2 else print('cuando devuelve false')
 
 # and y or 
+if 2 < 5 and 3 < 2:
+    print('ambas devuelven true')
+
+if 1 < 0  or 1 > 0:
+    print('una de las dos condiciones devolvio true')
