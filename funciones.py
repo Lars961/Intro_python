@@ -53,3 +53,12 @@ def concatenarNombres(lista2):
 
 valorCapturado = concatenarNombres(['Luis', 'Reos'])
 print(valorCapturado)
+
+#Funcion recursiva, como argumento se pasa un numero j y se le restara uno en cada iteracion hasta llegar a j<1
+def recursion (j):
+    if(j < 1):
+        return j
+    print(j)
+    recursion(j - 1)
+
+recursion(3)
