@@ -1,0 +1,8 @@
+hola mundo, esto es una prueba de gestion de archivos en pyhton
+
+lala
+lele
+lili
+lolo
+agregando nueva linea de texto
+agregando nueva linea de texto
